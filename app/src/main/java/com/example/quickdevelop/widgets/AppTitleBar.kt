@@ -18,7 +18,7 @@ import com.example.quickdevelop.R
  *
  * 一个简单的自定义标题栏
  */
-class MerchantTitleBar(
+class AppTitleBar(
     context: Context,
     attrs: AttributeSet
 ) :
@@ -48,19 +48,19 @@ class MerchantTitleBar(
         attributeSet: AttributeSet?
     ) {
         val typedArray =
-            context.obtainStyledAttributes(attributeSet, R.styleable.MerchantTitleBar)
-        val title = typedArray.getString(R.styleable.MerchantTitleBar_title) //标题
+            context.obtainStyledAttributes(attributeSet, R.styleable.AppTitleBar)
+        val title = typedArray.getString(R.styleable.AppTitleBar_title) //标题
         val leftIcon = typedArray.getResourceId(
-            R.styleable.MerchantTitleBar_left_icon,
+            R.styleable.AppTitleBar_left_icon,
             R.drawable.ic_title_bar_back
         )
         //左边图片
         val rightIcon = typedArray.getResourceId(
-            R.styleable.MerchantTitleBar_right_icon,
+            R.styleable.AppTitleBar_right_icon,
             R.drawable.ic_title_bar_back
         )
         val isShowLeftIcon = typedArray.getBoolean(
-            R.styleable.MerchantTitleBar_show_left_icon,
+            R.styleable.AppTitleBar_show_left_icon,
             true
         )
         ivBack!!.visibility = if (isShowLeftIcon){
@@ -71,9 +71,9 @@ class MerchantTitleBar(
 
         //右边图片
         val rightText =
-            typedArray.getString(R.styleable.MerchantTitleBar_right_text) //右边文字
+            typedArray.getString(R.styleable.AppTitleBar_right_text) //右边文字
         val titleBarType =
-            typedArray.getInt(R.styleable.MerchantTitleBar_titlebar_type, 10) //标题栏类型,默认为10
+            typedArray.getInt(R.styleable.AppTitleBar_titlebar_type, 10) //标题栏类型,默认为10
 
         //赋值进去我们的标题栏
         tvTitle!!.text = title

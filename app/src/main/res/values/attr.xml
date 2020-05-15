@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <declare-styleable name="MerchantTitleBar">
+    <declare-styleable name="AppTitleBar">
         <attr name="title" format="string"/>
         <attr name="left_icon" format="reference"/>
         <attr name="right_icon" format="reference"/>
