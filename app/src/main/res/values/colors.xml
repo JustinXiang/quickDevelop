@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAppTheme">#212121</color>
+
+    <color name="colorPrimary">@color/colorAppTheme</color>
+    <color name="colorPrimaryDark">@color/colorAppTheme</color>
+    <color name="colorAccent">@color/colorAppTheme</color>
+
+
+    <color name="colorAppTheme2">#929292</color>
+
+    <color name="translate">#00FFFFFF</color>
+
+    <color name="backgroud">@color/colorAppTheme</color>
+    <color name="backgroud2">@color/colorAppTheme2</color>
+    <color name="theme_start">@color/colorAppTheme</color>
+    <color name="theme_end">@color/colorAppTheme</color>
+
+    <color name="text_color_hint">#CCCCCC</color>
+    <color name="text_t">@color/white</color>
+    <color name="text">#212121</color>
+    <color name="text2">#777777</color>
+    <color name="gray3">#999999</color>
+    <color name="text3">#242323</color>
+    <color name="text_white">@color/white</color>
+
+
+    <!--webView progress Bar -->
+    <color name="progress_start">@color/colorAppTheme</color>
+    <color name="progress_end">@color/colorAppTheme</color>
+
+    <color name="theme_false">@color/colorAppTheme2</color>
+
+    <color name="red">#EA302B</color>
+
+
+    <color name="gray2">#9B9B9B</color>
+    <color name="line">#F4F4F4</color>
+
+    <color name="line_bg">#77F5F3F3</color>
+
+
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#757575</color>
+
+    <!--水波纹相关-->
+    <color name="water_gray">#D1D1D3</color>
+    <color name="water_gray_press">#e7e6e2</color>
+    <color name="water_translate">#00ffffff</color>
+</resources>

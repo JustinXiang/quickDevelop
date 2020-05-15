@@ -1,0 +1,98 @@
+ext {
+    versions = [
+            compileSdk : 28,
+            minSdk     : 16,
+            targetSdk  : 28,
+
+            versionCode: 1,
+            versionName: "1.0",
+            support    : '28.0.0',
+            lifecycle  : '1.1.1',
+            okhttp     : '3.14.2',
+            retrofit   : '2.5.0',
+            kotlin     : '1.3.41'
+    ]
+
+
+    supports = [
+            "appcompat"        : "com.android.support:appcompat-v7:${versions.support}",
+            "cardview"         : "com.android.support:cardview-v7:${versions.support}",
+            "design"           : "com.android.support:design:${versions.support}",
+            "recyclerview"     : "com.android.support:recyclerview-v7:${versions.support}",
+            "annotations"      : "com.android.support:support-annotations:${versions.support}",
+            "constraint-layout": "com.android.support.constraint:constraint-layout:2.0.0-beta1",
+    ]
+
+
+    implementations = [
+            //kotlin
+            "kotlin-stdlib"                : "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$versions.kotlin",
+            //RxJAVA
+            "rxkotlin"                     : 'io.reactivex.rxjava2:rxkotlin:2.3.0',
+            "rxandroid"                    : 'io.reactivex.rxjava2:rxandroid:2.1.0',
+            "adapter-rxjava"               : 'com.squareup.retrofit2:adapter-rxjava2:2.5.0',
+            //rxlifecycle
+            "rxlifecycle"                  : 'com.trello.rxlifecycle2:rxlifecycle-components:2.2.2',
+            //retorfit + gson
+            "retrofit"                     : 'com.squareup.retrofit2:retrofit:2.5.0',
+            "converter-gson"               : 'com.squareup.retrofit2:converter-gson:2.5.0',
+            //logging
+            "logging"                      : 'com.squareup.okhttp3:logging-interceptor:3.11.0',
+            //eventbus
+            "eventbus"                     : 'org.greenrobot:eventbus:3.1.1',
+            //picture_library
+            "picture_library"              : 'com.github.LuckSiege.PictureSelector:picture_library:v2.2.3',
+            //RecycylerViewAdapaterHelpera
+            "BaseRecyclerViewAdapterHelper": 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.40',
+            //glide
+            "glide"                        : 'com.github.bumptech.glide:glide:4.8.0',
+            "glide_annotations"            : 'com.github.bumptech.glide:annotations:4.8.0',
+            "glide_okhttp3"                : 'com.github.bumptech.glide:okhttp3-integration:4.8.0@aar',
+            //easyPermission
+            "easyPermission"               : 'pub.devrel:easypermissions:1.2.0',
+            //zxing
+            "zxing"                        : 'cn.bingoogolapple:bga-qrcode-zxing:1.3.4',
+            //stickyDecoration
+            "stickyDecoration"             : 'com.gavin.com.library:stickyDecoration:1.4.7',
+            //PhotoView
+            "PhotoView"                    : 'com.github.chrisbanes:PhotoView:2.1.4',
+            //Luban
+            "Luban"                        : 'top.zibin:Luban:1.1.8',
+            //banner
+            "banner"                       : 'com.youth.banner:banner:1.4.10',
+            //badge
+            "badgeview"                    : 'q.rorbin:badgeview:1.1.3',
+            //MarqueeView
+            "MarqueeView"                  : 'com.github.385841539:MarqueeView:1.0.0',
+            //Log
+            "klog"                         : 'com.github.zhaokaiqiang.klog:library:1.6.0',
+            //inidcator
+            "FlycoTabLayout_Lib"           : 'com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2@aar',
+            "MagicIndicator"               : 'com.github.hackware1993:MagicIndicator:1.5.0',
+            "viewpagerdotsindicator"       : 'com.tbuonomo.andrui:viewpagerdotsindicator:3.0.3',
+            "dynamic-animation"            : 'com.android.support:support-dynamic-animation:28.0.0',
+            //侧滑及诶按
+            "sliding-root"                 : 'com.yarolegovich:sliding-root-nav:1.1.0',
+            //expandablelayout
+            "expandablelayout"             : 'net.cachapa.expandablelayout:expandablelayout:2.9.2',
+            //webView 优化 VasSonic
+            "VasSonic"                     : 'com.tencent.sonic:sdk:3.1.0',
+            //vedio
+            "jiaozivideoplayer"            : 'cn.jzvd:jiaozivideoplayer:7.0.5',
+            //友盟
+            "analytics"                    : 'com.umeng.sdk:analytics:7.5.3',
+            "umsdk-common"                 : 'com.umeng.sdk:common:1.5.3',
+            //缓存
+            "videocache"                   : 'com.danikula:videocache:2.7.0',
+            //h5 加载速度
+            "sonic"                        : 'com.tencent.sonic:sdk:3.1.0',
+            //播放器内核
+//            "ijkplayer"                    : 'tv.danmaku.ijk.media:ijkplayer-java:0.8.8',
+//            "ijkplayer-armv7a"             : 'tv.danmaku.ijk.media:ijkplayer-armv7a:0.8.8'
+    ]
+
+
+
+    supportLibs = supports.values()
+    implementationLibs = implementations.values()
+}
