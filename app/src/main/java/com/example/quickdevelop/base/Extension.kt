@@ -73,7 +73,7 @@ fun <T> Collection<T>.joinToString(
 }
 
 //所有类型函数扩展
-fun Any.log() = Log.d("diosamo", this.toString())
+fun Any.log() = Log.d("flx", this.toString())
 
 fun Any.logh5() = Log.d("h5info", this.toString())
 
@@ -469,4 +469,6 @@ fun BaseFragment.addFragment(fragment: Fragment, frameId: Int) {
         }
     }
 }
+
+
 

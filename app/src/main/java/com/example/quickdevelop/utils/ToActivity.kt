@@ -4,10 +4,6 @@ import com.example.quickdevelop.base.BaseToActivity
 
 
 /**
- * @Package com.highstreet.taobaocang.utils
- * @author LiHongCheng
- * @E-mail diosamolee201 4@gmail.com
- * @time 2019/1/8 11:23
  * @version 1.0
  * @describe describe
  */
