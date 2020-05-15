@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MerchantTitleBar">
+        <attr name="title" format="string"/>
+        <attr name="left_icon" format="reference"/>
+        <attr name="right_icon" format="reference"/>
+        <attr name="right_text" format="string"/>
+        <attr name="titlebar_type" format="integer"/>
+        <attr name="show_left_icon" format="boolean"/>
+        <attr name="show_right_icon" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="ProfileItemLayout">
+        <attr name="icon" format="reference"/>
+        <attr name="item_content" format="string"/>
+        <attr name="right_arrow" format="reference"/>
+        <attr name="show_divider_line" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="CusEditText">
+        <attr name="cus_et_title" format="string"/>
+        <attr name="cus_et_hint" format="string"/>
+        <attr name="cus_et_type_in" format="string"/>
+        <attr name="cus_max_ends" format="integer"/>
+        <attr name="cus_min_ends" format="integer"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="LimitLayout">
+        <!--最大宽度-->
+        <attr name="ml_maxWidth" format="dimension" />
+        <!--最大高度-->
+        <attr name="ml_maxheight" format="dimension" />
+    </declare-styleable>
+</resources>
