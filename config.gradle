@@ -89,6 +89,13 @@ ext {
             //播放器内核
 //            "ijkplayer"                    : 'tv.danmaku.ijk.media:ijkplayer-java:0.8.8',
 //            "ijkplayer-armv7a"             : 'tv.danmaku.ijk.media:ijkplayer-armv7a:0.8.8'
+            //数据库
+            "hawk"                         : "com.orhanobut:hawk:2.0.1",
+            //下拉刷新
+            "SmartRefreshLayout"           : 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.2',
+            //tablayout
+            "DslTablayout"                 : 'com.github.angcyo.DslTablayout:TabLayout:1.5.3',
+            "ViewPager2Delegate"           : 'com.github.angcyo.DslTablayout:ViewPager2Delegate:1.4.2'
     ]
 
 

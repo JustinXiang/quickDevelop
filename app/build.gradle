@@ -6,7 +6,7 @@ android {
     compileSdkVersion 28
 
     defaultConfig {
-        applicationId "com.example.quickdevelop"
+        applicationId 'com.zhenxinkeji.poly_agent'
         minSdkVersion 19
         targetSdkVersion 28
         versionCode 1
@@ -68,7 +68,7 @@ android {
 
     applicationVariants.all { variant ->
         variant.outputs.all { output ->
-            outputFileName = "quickDevolop${defaultConfig.versionName}-${buildTime()}.apk"
+            outputFileName = "poly_agent${defaultConfig.versionName}-${buildTime()}.apk"
         }
     }
 
