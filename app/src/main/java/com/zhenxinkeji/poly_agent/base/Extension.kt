@@ -24,10 +24,6 @@ import com.bumptech.glide.request.transition.DrawableCrossFadeFactory
 import com.chad.library.adapter.base.BaseQuickAdapter
 import com.chad.library.adapter.base.BaseViewHolder
 import com.chad.library.adapter.base.loadmore.LoadMoreView
-import com.zhenxinkeji.poly_agent.App
-import com.zhenxinkeji.poly_agent.R
-import com.zhenxinkeji.poly_agent.utils.DeviceUtils
-import com.zhenxinkeji.poly_agent.widgets.LoadingLayout
 import com.flyco.tablayout.CommonTabLayout
 import com.flyco.tablayout.listener.CustomTabEntity
 import com.flyco.tablayout.listener.OnTabSelectListener
@@ -35,7 +31,11 @@ import com.highstreet.taobaocang.net.ExceptionFunction
 import com.highstreet.taobaocang.net.HttpObserver
 import com.trello.rxlifecycle2.components.support.RxAppCompatActivity
 import com.trello.rxlifecycle2.components.support.RxFragment
-import com.xl.aggregationlive.utils.EmptyUtils
+import com.zhenxinkeji.poly_agent.App
+import com.zhenxinkeji.poly_agent.R
+import com.zhenxinkeji.poly_agent.utils.DeviceUtils
+import com.zhenxinkeji.poly_agent.widgets.LoadingLayout
+import com.zhenxinkeji.zhimahuan.utils.EmptyUtils
 import io.reactivex.Flowable
 import io.reactivex.Observable
 import io.reactivex.android.schedulers.AndroidSchedulers

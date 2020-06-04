@@ -11,7 +11,7 @@ import com.zhenxinkeji.poly_agent.myInterface.PhotoChooseListener
 import com.luck.picture.lib.PictureSelector
 import com.luck.picture.lib.config.PictureConfig
 import com.luck.picture.lib.config.PictureMimeType
-import com.xl.aggregationlive.utils.EmptyUtils
+import com.zhenxinkeji.zhimahuan.utils.EmptyUtils
 import kotlinx.android.synthetic.main.bottom_dialog_choose_photo.*
 import java.util.*
 
